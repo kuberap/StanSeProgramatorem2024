@@ -14,7 +14,7 @@ Cílem je ukázat, jak můžete využít Python k vytvoření jednoduchých výp
   - Komplexnější úloha pro simulaci proudění, který používá LBM. Obsahuje ovládací prvky pro úpravu parametrů simulace a zobrazení výsledků.
   - Používáme objektový princip zapouzdření a oddělujeme výpočet od GUI.
 
-## Instalace
+## Instalace - Python 3.11
 0. Vstupte do složky, kde chcete projekt uložit.
 1. Stáhněte si tento repozitář pomocí příkazu:`git clone https://github.com/kuberap/StanSeProgramatorem2024`
 a vstoupíme do složky: `cd StanSeProgramatorem2024/`
