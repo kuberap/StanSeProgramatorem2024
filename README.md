@@ -21,4 +21,16 @@ a vstoupíme do složky: `cd StanSeProgramatorem2024/`
 2. Vytvořte virtuální prostředí pomocí: `python -m venv venv`
 3. Aktivujte virtuální prostředí pomocí: `venv\Scripts\activate` (Windows) nebo `source venv/bin/activate` (Linux)
 a nainstalujte potřebné knihovny pomocí: `pip install -r requirements.txt`
+## Spuštění
+1. Změňte adresář `cd Src`
+2. V adresáři jsou následující zdrojové soubory:
+| **Soubor**               | **Popis**                                         | **Info**         |
+|--------------------------|--------------------------------------------------|--------------------|
+| `aplikace.py`            | Hlavní soubor aplikace, který obsahuje GUI.      | komplexní - *RUN*    |
+| `computationalLBM.py`    | Adaptér pro LBM s použitím vláken   | pomocná            |
+| `LBM.py`                 | Implementace LBM (Lattice Boltzmann Method).     | pomocná          |
+| `vypocetPI.py`           | Výpočet čísla π pomocí Monte Carlo.              | snadná - *RUN*           |
+| `vypocetPI_vlakna.py`    | Paralelní výpočet čísla π s využitím vláken.     | snadná - *RUN*           |
+
+3. Spusťte aplikaci pomocí: `python vypocetPI.py` (nebo jiná aplikace s příznakem *RUN*)
 
