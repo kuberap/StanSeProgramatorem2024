@@ -24,6 +24,7 @@ a nainstalujte potřebné knihovny pomocí: `pip install -r requirements.txt`
 ## Spuštění
 1. Změňte adresář `cd Src`
 2. V adresáři jsou následující zdrojové soubory:
+
 | **Soubor**               | **Popis**                                         | **Info**         |
 |--------------------------|--------------------------------------------------|--------------------|
 | `aplikace.py`            | Hlavní soubor aplikace, který obsahuje GUI.      | komplexní - *RUN*    |
