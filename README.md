@@ -19,7 +19,7 @@ Cílem je ukázat, jak můžete využít Python k vytvoření jednoduchých výp
 1. Stáhněte si tento repozitář pomocí příkazu:`git clone https://github.com/kuberap/StanSeProgramatorem2024`
 a vstoupíme do složky: `cd StanSeProgramatorem2024/`
 2. Vytvořte virtuální prostředí pomocí: `python -m venv venv`
-3. Aktivujte virtuální prostředí pomocí: `venv\Scripts\activate` (Windows) nebo `source venv/bin/activate` (Linux)
+3. Aktivujte virtuální prostředí pomocí: `venv\Scripts\activate.bat` (Windows) nebo `source venv/bin/activate` (Linux)
 a nainstalujte potřebné knihovny pomocí: `pip install -r requirements.txt`
 ## Spuštění
 1. Změňte adresář `cd Src`
