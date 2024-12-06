@@ -6,7 +6,7 @@ from PyQt5.QtGui import  QImage, QPixmap
 from PyQt5.QtWidgets import QApplication, QVBoxLayout, QPushButton, QLabel, QWidget, QHBoxLayout, QMainWindow, \
     QFormLayout, QSpinBox, QDoubleSpinBox, QSlider
 
-from Src.computationalLBM import ComputationalLBM
+from computationalLBM import ComputationalLBM # import třídy pro výpočet
 
 
 class SimulationGui(QMainWindow):

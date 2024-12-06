@@ -15,8 +15,10 @@ Cílem je ukázat, jak můžete využít Python k vytvoření jednoduchých výp
   - Používáme objektový princip zapouzdření a oddělujeme výpočet od GUI
 
 ## Instalace
-1. Stáhněte si tento repozitář pomocí příkazu:`git clone jménorepozitáře`
-a vstoupíme do složky: `cd creathon`
+0. Vstupte do složky, kde chcete projekt uložit.
+1. Stáhněte si tento repozitář pomocí příkazu:`git clone https://github.com/kuberap/StanSeProgramatorem2024`
+a vstoupíme do složky: `cd StanSeProgramatorem2024/`
 2. Vytvořte virtuální prostředí pomocí: `python -m venv venv`
+3. Aktivujte virtuální prostředí pomocí: `venv\Scripts\activate` (Windows) nebo `source venv/bin/activate` (Linux)
 a nainstalujte potřebné knihovny pomocí: `pip install -r requirements.txt`
 

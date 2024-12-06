@@ -5,7 +5,7 @@ import numpy as np
 from PyQt5.QtCore import QThread, pyqtSignal, pyqtSlot
 from PyQt5.QtGui import QImage, QPixmap
 
-from Src.LBM import LBM
+from LBM import LBM # import třídy pro výpočet LBM
 
 
 class ComputationalLBM(QThread):
